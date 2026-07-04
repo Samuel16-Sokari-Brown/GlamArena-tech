@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 /* ========== WHITE SECTION THEME ========== */
 .section-white {
-  background: #ffffff !important;
+  background: rgb(248, 250, 252) !important;
 }
 .section-white .section-title,
 .section-white h1, .section-white h2,
@@ -100,15 +100,16 @@ h1, h2, h3, h4, h5 {
 .section-white .testimonial-card,
 .section-white .metric-card,
 .section-white .why-item {
-  background: #f4f8ff !important;
-  border-color: rgba(26, 79, 214, 0.15) !important;
-  box-shadow: 0 4px 24px rgba(26, 79, 214, 0.08) !important;
+  background: #ffffff !important;
+  border-color: rgba(26, 79, 214, 0.08) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04) !important;
 }
 .section-white .service-card:hover,
 .section-white .program-card:hover,
 .section-white .metric-card:hover {
-  background: #e8f0ff !important;
-  border-color: rgba(26, 79, 214, 0.35) !important;
+  background: #ffffff !important;
+  border-color: rgba(26, 79, 214, 0.25) !important;
+  box-shadow: 0 12px 40px rgba(26, 79, 214, 0.08) !important;
 }
 .section-white .service-title,
 .section-white .program-card h3,
@@ -1653,7 +1654,7 @@ h1, h2, h3, h4, h5 {
 
 /* ========== LOGO IMAGE ========== */
 .logo-img {
-  height: 72px;
+  height: 92px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -1667,7 +1668,7 @@ h1, h2, h3, h4, h5 {
 
 /* Footer logo slightly smaller */
 .footer-brand .logo-img {
-  height: 60px;
+  height: 72px;
   margin-bottom: 4px;
 }
 
@@ -1714,7 +1715,7 @@ h1, h2, h3, h4, h5 {
 
 /* ========== LOGO WHITE INVERT ========== */
 .logo-img {
-  height: 72px !important;
+  height: 92px !important;
   width: auto;
   object-fit: contain;
   display: block;
@@ -1726,7 +1727,7 @@ h1, h2, h3, h4, h5 {
   transform: scale(1.04) !important;
 }
 .footer-brand .logo-img {
-  height: 60px !important;
+  height: 72px !important;
 }
 
 /* ========== GOLD ACCENT ENHANCEMENTS ========== */
