@@ -69,6 +69,88 @@ h1, h2, h3, h4, h5 {
 
 .section { padding: 120px 0; }
 
+/* ========== WHITE SECTION THEME ========== */
+.section-white {
+  background: #ffffff !important;
+}
+.section-white .section-title,
+.section-white h1, .section-white h2,
+.section-white h3, .section-white h4 {
+  color: #0d1f3c !important;
+  -webkit-text-fill-color: #0d1f3c !important;
+}
+.section-white .gradient-text {
+  background: linear-gradient(135deg, #1a4fd6 0%, #c8880a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text;
+}
+.section-white .section-subtitle,
+.section-white .about-text,
+.section-white p {
+  color: #3a5072 !important;
+}
+.section-white .section-tag {
+  background: rgba(26, 79, 214, 0.10);
+  border: 1px solid rgba(26, 79, 214, 0.3);
+  color: #1a4fd6;
+}
+.section-white .service-card,
+.section-white .program-card,
+.section-white .testimonial-card,
+.section-white .metric-card,
+.section-white .why-item {
+  background: #f4f8ff !important;
+  border-color: rgba(26, 79, 214, 0.15) !important;
+  box-shadow: 0 4px 24px rgba(26, 79, 214, 0.08) !important;
+}
+.section-white .service-card:hover,
+.section-white .program-card:hover,
+.section-white .metric-card:hover {
+  background: #e8f0ff !important;
+  border-color: rgba(26, 79, 214, 0.35) !important;
+}
+.section-white .service-title,
+.section-white .program-card h3,
+.section-white .metric-val,
+.section-white .why-item h4,
+.section-white .testimonial-card p,
+.section-white strong {
+  color: #0d1f3c !important;
+}
+.section-white .service-desc,
+.section-white .service-number,
+.section-white .metric-label,
+.section-white .stat-label,
+.section-white .program-meta span,
+.section-white .why-item p,
+.section-white .testimonial-text {
+  color: #4a6a96 !important;
+}
+.section-white .service-link { color: #1a4fd6 !important; }
+.section-white .about-feature span { color: #1a3560 !important; }
+.section-white .feature-check {
+  background: rgba(26, 79, 214, 0.12) !important;
+  color: #1a4fd6 !important;
+  border-color: rgba(26, 79, 214, 0.25) !important;
+}
+.section-white .program-topics li { color: #3a5878 !important; }
+.section-white .program-topics li::before { color: #1a4fd6 !important; }
+.section-white .btn-outline {
+  border-color: #1a4fd6 !important;
+  color: #1a4fd6 !important;
+}
+.section-white .btn-outline:hover {
+  background: #1a4fd6 !important;
+  color: #ffffff !important;
+}
+.section-white .author-avatar { opacity: 1; }
+.section-white .testimonial-stars { color: #f0a500; }
+.section-white .testimonial-card strong,
+.section-white .testimonial-author strong { color: #0d1f3c !important; }
+.section-white .testimonial-author span { color: #5a7a9e !important; }
+/* ========================================= */
+
 .section-header {
   text-align: center;
   max-width: 700px;
