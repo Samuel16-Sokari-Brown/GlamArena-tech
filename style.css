@@ -149,6 +149,46 @@ h1, h2, h3, h4, h5 {
 .section-white .testimonial-card strong,
 .section-white .testimonial-author strong { color: #0d1f3c !important; }
 .section-white .testimonial-author span { color: #5a7a9e !important; }
+.section-white .contact-form {
+  background: #f4f8ff !important;
+  border-color: rgba(26, 79, 214, 0.15) !important;
+  box-shadow: 0 8px 32px rgba(26, 79, 214, 0.05) !important;
+}
+.section-white .form-group label {
+  color: #3a5072 !important;
+}
+.section-white .form-group input,
+.section-white .form-group select,
+.section-white .form-group textarea {
+  background: #ffffff !important;
+  border-color: rgba(26, 86, 219, 0.25) !important;
+  color: #0d1f3c !important;
+}
+.section-white .form-group input:focus,
+.section-white .form-group select:focus,
+.section-white .form-group textarea:focus {
+  border-color: #1a4fd6 !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(26, 79, 214, 0.15) !important;
+}
+.section-white .form-group select option {
+  background: #ffffff !important;
+  color: #0d1f3c !important;
+}
+.section-white .form-group input::placeholder,
+.section-white .form-group textarea::placeholder {
+  color: #8fa0b5 !important;
+}
+.section-white .social-btn {
+  background: #f4f8ff !important;
+  border-color: rgba(26, 79, 214, 0.15) !important;
+  color: #1a4fd6 !important;
+}
+.section-white .social-btn:hover {
+  background: rgba(26, 86, 219, 0.1) !important;
+  border-color: #1a4fd6 !important;
+  color: #1a4fd6 !important;
+}
 /* ========================================= */
 
 .section-header {
