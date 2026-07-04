@@ -1719,11 +1719,11 @@ h1, h2, h3, h4, h5 {
   width: auto;
   object-fit: contain;
   display: block;
-  filter: brightness(0) invert(1) !important;
+  filter: none !important;
   transition: filter 0.3s ease, transform 0.3s ease !important;
 }
 .logo-img:hover {
-  filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(26, 79, 214, 0.35)) !important;
+  filter: brightness(1.1) drop-shadow(0 0 12px rgba(26, 79, 214, 0.35)) !important;
   transform: scale(1.04) !important;
 }
 .footer-brand .logo-img {
