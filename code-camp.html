@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GlamArena Tech Code Camp. Intensive, hands-on programming tracks for kids, teens, and professionals." />
+  <title>GlamArena Tech | Code Camp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.png" alt="GlamArena Tech Logo" class="logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="code-camp.html" class="nav-link active">Code camp</a></li>
+        <li><a href="about.html" class="nav-link">About us</a></li>
+        <li><a href="services.html" class="nav-link">Our Services</a></li>
+        <li><a href="internship.html" class="nav-link">Internship</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="careers.html" class="nav-link">Careers</a></li>
+        <li><a href="contact.html" class="nav-link">Contact us</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="hero" style="min-height: 50vh; padding-top: 140px; padding-bottom: 60px;">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Hands-On Code Camp
+      </div>
+      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;">
+        Discover <span class="gradient-text">Coding Programmes</span>
+      </h1>
+      <p class="hero-subtitle" style="margin-bottom: 0;">
+        Equipping today&rsquo;s learners with the practical skills for tomorrow&rsquo;s world. 
+        Select a track tailored to your age and goals.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== TRACKS ===== -->
+  <section class="programs section" style="background: rgba(3, 14, 32, 0.4);">
+    <div class="container">
+      <div class="programs-grid">
+        <div class="program-card program-featured">
+          <div class="program-badge">Most Popular</div>
+          <div class="program-icon">&#128187;</div>
+          <h3>Junior Coders (Ages 7&ndash;16)</h3>
+          <p>Children explore logic and coding in an engaging way. From drag-and-drop games to writing their first real lines of HTML, CSS, and Python.</p>
+          <ul class="program-topics">
+            <li>Scratch, Blockly &amp; Tynker</li>
+            <li>HTML &amp; CSS Web Coding</li>
+            <li>Python Coding Basics</li>
+            <li>Creative Problem-Solving</li>
+          </ul>
+          <div class="program-meta">
+            <span class="program-duration">3 Months</span>
+            <span class="program-level">Junior Track</span>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-full">Enroll Now</a>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">&#127758;</div>
+          <h3>Student Digital Skills</h3>
+          <p>Designed for secondary and university students. Build practical skills, learn standard web-development tools, and prepare for global tech challenges.</p>
+          <ul class="program-topics">
+            <li>Modern Web-Development Basics</li>
+            <li>UI/UX Design Concepts</li>
+            <li>Data Literacy &amp; AI Tools</li>
+            <li>Collaborative Git Workflows</li>
+          </ul>
+          <div class="program-meta">
+            <span class="program-duration">4 Months</span>
+            <span class="program-level">Teens &amp; Students</span>
+          </div>
+          <a href="contact.html" class="btn btn-outline btn-full">Enroll Now</a>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon">&#129302;</div>
+          <h3>Professional Tech Bootcamp</h3>
+          <p>For adults and professionals looking to build high-demand careers. Comprehensive, immersive training in advanced software engineering, AI, robotics, and cyber defense.</p>
+          <ul class="program-topics">
+            <li>Full-Stack &amp; Mobile App Dev</li>
+            <li>Artificial Intelligence Systems</li>
+            <li>Cybersecurity &amp; Network Defense</li>
+            <li>Robotics &amp; Physical Hardware</li>
+          </ul>
+          <div class="program-meta">
+            <span class="program-duration">6 Months</span>
+            <span class="program-level">Adults &amp; Professionals</span>
+          </div>
+          <a href="contact.html" class="btn btn-outline btn-full">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Methodology</div>
+        <h2 class="section-title">The Code Camp <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">A typical cohort structure at GlamArena Tech.</p>
+      </div>
+      <div class="about-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+          <span style="font-size: 2rem; display: block; margin-bottom: 16px;">📅</span>
+          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">1. Weekly Classes</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Hands-on training, interactive live challenges, and coding drills guided by industry professionals.</p>
+        </div>
+        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+          <span style="font-size: 2rem; display: block; margin-bottom: 16px;">💻</span>
+          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">2. Projects Portfolio</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Build actual, deployable systems. You leave the camp with a personal portfolio of working products.</p>
+        </div>
+        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+          <span style="font-size: 2rem; display: block; margin-bottom: 16px;">🏆</span>
+          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">3. Certification</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Graduate with a verified certificate of completion and recommendations for internships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/logo.png" alt="GlamArena Tech Logo" class="logo-img" />
+          </a>
+          <p class="footer-tagline">Equipping today's learners with the skills for tomorrow's world.</p>
+          <p class="footer-copy">A place where people of all ages can discover, learn, and grow through technology.</p>
+        </div>
+        <div class="footer-col">
+          <h4>GlamArena Tech</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="code-camp.html">Code camp</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="internship.html">Internship</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Programmes</h4>
+          <ul>
+            <li><a href="code-camp.html">Junior Coders</a></li>
+            <li><a href="code-camp.html">Student Tech</a></li>
+            <li><a href="code-camp.html">Professional Bootcamp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GlamArena Tech. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
