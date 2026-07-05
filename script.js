@@ -1,4 +1,4 @@
-﻿/* ============================================
+/* ============================================
    NEXGEN TECHNOLOGIES — PREMIUM JAVASCRIPT
    ============================================ */
 
@@ -124,21 +124,7 @@ sectionHeaders.forEach(el => {
 });
 
 // ========== SERVICE CARD TILT EFFECT ==========
-document.querySelectorAll('.service-card').forEach(card => {
-  card.addEventListener('mousemove', (e) => {
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const cx = rect.width / 2;
-    const cy = rect.height / 2;
-    const rotX = ((y - cy) / cy) * -6;
-    const rotY = ((x - cx) / cx) * 6;
-    card.style.transform = `translateY(-6px) rotateX(${rotX}deg) rotateY(${rotY}deg)`;
-  });
-  card.addEventListener('mouseleave', () => {
-    card.style.transform = '';
-  });
-});
+// Disabled tilt effect for a cleaner, high-performance professional aesthetic.
 
 // ========== SMOOTH SCROLL FOR ANCHOR LINKS ==========
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -179,52 +165,17 @@ if (contactForm) {
 }
 
 // ========== PARALLAX HERO ORBS ON MOUSE MOVE ==========
-const heroSection = document.querySelector('.hero');
-const orbs = document.querySelectorAll('.hero-orb');
-
-if (heroSection) {
-  heroSection.addEventListener('mousemove', (e) => {
-    const rect = heroSection.getBoundingClientRect();
-    const x = (e.clientX - rect.left) / rect.width - 0.5;
-    const y = (e.clientY - rect.top) / rect.height - 0.5;
-
-    orbs.forEach((orb, i) => {
-      const factor = (i + 1) * 12;
-      orb.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
-    });
-  });
-
-  heroSection.addEventListener('mouseleave', () => {
-    orbs.forEach(orb => { orb.style.transform = ''; });
-  });
-}
+// Disabled parallax orbs.
 
 // ========== CURSOR GLOW EFFECT ==========
-const cursorGlow = document.createElement('div');
-cursorGlow.style.cssText = `
-  position: fixed;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(26, 86, 219, 0.06), transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 0;
-  transform: translate(-50%, -50%);
-  transition: left 0.15s ease, top 0.15s ease;
-`;
-document.body.appendChild(cursorGlow);
-
-document.addEventListener('mousemove', (e) => {
-  cursorGlow.style.left = e.clientX + 'px';
-  cursorGlow.style.top = e.clientY + 'px';
-});
+// Disabled cursor follow glow for a cleaner, more professional presentation.
 
 // ========== NAV ACTIVE LINK STYLE ==========
 const style = document.createElement('style');
 style.textContent = `
   .nav-link.active {
     color: var(--text-primary) !important;
-    background: rgba(124, 58, 237, 0.15) !important;
+    background: rgba(37, 99, 235, 0.08) !important;
   }
   .btn-loading {
     opacity: 0.7;
@@ -275,9 +226,9 @@ function buildLightbox() {
   img.id = 'lightboxImg';
   img.style.cssText = `
     max-width: 90vw; max-height: 90vh;
-    border-radius: 16px;
+    border-radius: 12px;
     object-fit: contain;
-    box-shadow: 0 0 80px rgba(26, 86, 219, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     animation: lbFadeIn 0.3s ease;
   `;
 
@@ -285,24 +236,23 @@ function buildLightbox() {
   caption.id = 'lightboxCaption';
   caption.style.cssText = `
     position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
-    background: rgba(13,13,34,0.95); border: 1px solid rgba(26, 86, 219, 0.4);
+    background: #18181b; border: 1px solid rgba(255, 255, 255, 0.08);
     padding: 10px 24px; border-radius: 100px; color: #f0f0ff;
     font-size: 0.9rem; font-weight: 600; white-space: nowrap;
-    backdrop-filter: blur(16px);
   `;
 
   const closeBtn = document.createElement('button');
   closeBtn.innerHTML = '&times;';
   closeBtn.style.cssText = `
     position: absolute; top: 20px; right: 28px;
-    background: rgba(26, 86, 219, 0.3); border: 1px solid rgba(26, 86, 219, 0.5);
+    background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15);
     color: white; font-size: 2rem; line-height: 1;
     width: 48px; height: 48px; border-radius: 50%;
     cursor: pointer; display: flex; align-items: center; justify-content: center;
     transition: background 0.2s;
   `;
-  closeBtn.onmouseenter = () => closeBtn.style.background = 'rgba(26, 86, 219, 0.6)';
-  closeBtn.onmouseleave = () => closeBtn.style.background = 'rgba(26, 86, 219, 0.3)';
+  closeBtn.onmouseenter = () => closeBtn.style.background = 'rgba(255, 255, 255, 0.15)';
+  closeBtn.onmouseleave = () => closeBtn.style.background = 'rgba(255, 255, 255, 0.08)';
 
   const styleEl = document.createElement('style');
   styleEl.textContent = '@keyframes lbFadeIn { from { opacity:0; transform:scale(0.95); } to { opacity:1; transform:scale(1); } }';
