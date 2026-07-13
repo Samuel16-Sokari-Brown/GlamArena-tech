@@ -380,20 +380,11 @@ p {
   object-fit: contain;
   display: block;
   transition: var(--transition);
-  /* SVG logo inherits color; default to white for dark navbar */
-  color: #ffffff;
-  filter: none;
 }
 
 .logo-img:hover {
   transform: scale(1.02);
-  opacity: 0.9;
-}
-
-/* Make logo dark in white/light footer context */
-.footer .logo-img {
-  color: #09090b;
-  filter: brightness(0);
+  opacity: 0.85;
 }
 
 .nav-links {
