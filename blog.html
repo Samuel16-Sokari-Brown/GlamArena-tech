@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GlamArena Tech Blog. Insights, coding tutorials, tips for kids coding, and student spotlights." />
+  <meta name="description" content="Read GlamArena Tech articles, tech education tips, Python tutorials, kids coding guidance, and student spotlights." />
   <title>GlamArena Tech | Blog &amp; Insights</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -35,20 +32,17 @@
   </nav>
 
   <!-- ===== PAGE HEADER ===== -->
-  <section class="hero" style="min-height: 50vh; padding-top: 140px; padding-bottom: 60px;">
+  <section class="hero" style="min-height: 45vh; padding-top: 130px; padding-bottom: 40px;">
     <div class="hero-bg-grid"></div>
-    <div class="hero-container">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Latest Insights
+    <div class="container hero-container" style="grid-template-columns: 1fr; text-align: center;">
+      <div class="hero-content" style="align-items: center; max-width: 800px; margin: 0 auto;">
+        <h1 class="hero-title">
+          Blog &amp; <span class="gradient-text">Insights</span>
+        </h1>
+        <p class="hero-subtitle" style="margin-bottom: 0;">
+          Read guides, tech tutorials, and learning methodologies prepared directly by our educators and instructors.
+        </p>
       </div>
-      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;">
-        Blog &amp; <span class="gradient-text">Articles</span>
-      </h1>
-      <p class="hero-subtitle" style="margin-bottom: 0;">
-        Stay updated with tech tips, coding guides, learning methodologies, and success stories 
-        directly from GlamArena Tech educators.
-      </p>
     </div>
   </section>
 
@@ -56,28 +50,25 @@
   <section class="services section section-white">
     <div class="container">
       <div class="services-grid">
-        <div class="service-card" style="cursor: default;">
-          <div class="service-icon-wrap"><div class="service-icon">&#128187;</div></div>
-          <span class="service-number" style="font-size: 0.8rem; color: var(--accent-light); display: block; margin-bottom: 8px;">July 2026 &bull; Kids Tech</span>
-          <h3 class="service-title">Why Kids Should Learn Block-Based Coding Early</h3>
-          <p class="service-desc">Exploring how tools like Scratch, Blockly, and Tynker help children develop critical problem-solving, cognitive logic, and creativity that benefits them in all school subjects.</p>
-          <div class="service-glow"></div>
+        <div class="service-card">
+          <div class="service-icon-wrap"><div class="service-icon">💻</div></div>
+          <span style="font-size: 0.75rem; color: var(--primary); display: block; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">July 2026 &bull; Kids Coding</span>
+          <h3 class="service-title">Why Kids Should Learn Block Coding Early</h3>
+          <p class="service-desc">How visual tools like Scratch and Blockly help children build structural logic, cognitive problem-solving, and math alignment that benefits general school performance.</p>
         </div>
 
-        <div class="service-card" style="cursor: default;">
-          <div class="service-icon-wrap"><div class="service-icon">&#127758;</div></div>
-          <span class="service-number" style="font-size: 0.8rem; color: var(--accent-light); display: block; margin-bottom: 8px;">June 2026 &bull; Web Dev</span>
-          <h3 class="service-title">The Roadmap to Becoming a Full-Stack Developer</h3>
-          <p class="service-desc">A comprehensive guide for beginners looking to break into technology. Step-by-step path from learning basic HTML/CSS to building complete database-driven systems.</p>
-          <div class="service-glow"></div>
+        <div class="service-card">
+          <div class="service-icon-wrap"><div class="service-icon">🌐</div></div>
+          <span style="font-size: 0.75rem; color: var(--primary); display: block; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">June 2026 &bull; Web Dev</span>
+          <h3 class="service-title">The Roadmap to Full-Stack Engineering</h3>
+          <p class="service-desc">A complete guide for beginners starting in web engineering. Step-by-step pathways from fundamental HTML/CSS layouts to databases, servers, and APIs.</p>
         </div>
 
-        <div class="service-card" style="cursor: default;">
-          <div class="service-icon-wrap"><div class="service-icon">&#129302;</div></div>
-          <span class="service-number" style="font-size: 0.8rem; color: var(--accent-light); display: block; margin-bottom: 8px;">May 2026 &bull; AI Skills</span>
-          <h3 class="service-title">Leveraging AI Tools for Academic Success</h3>
-          <p class="service-desc">How students and professionals can responsibly use Artificial Intelligence, prompt engineering, and digital assistance to boost learning and productivity in everyday workflows.</p>
-          <div class="service-glow"></div>
+        <div class="service-card">
+          <div class="service-icon-wrap"><div class="service-icon">🤖</div></div>
+          <span style="font-size: 0.75rem; color: var(--primary); display: block; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">May 2026 &bull; AI Skills</span>
+          <h3 class="service-title">Using AI Assistants Responsibly in Study</h3>
+          <p class="service-desc">How students and professionals can leverage prompt engineering and model interactions to enhance understanding, verify scripts, and improve workflow productivity.</p>
         </div>
       </div>
     </div>
@@ -85,7 +76,6 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="footer-glow"></div>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -93,7 +83,7 @@
             <img src="assets/logo-combined.png" alt="GlamArena Tech Logo" class="logo-img" />
           </a>
           <p class="footer-tagline">Equipping today's learners with the skills for tomorrow's world.</p>
-          <p class="footer-copy">A place where people of all ages can discover, learn, and grow through technology.</p>
+          <p class="footer-copy">A support system and workspace for technology exploration, collaboration, and learning.</p>
         </div>
         <div class="footer-col">
           <h4>GlamArena Tech</h4>

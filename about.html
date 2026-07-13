@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="About GlamArena Tech. We believe that technology should be accessible to everyone. Our programmes are built around hands-on learning, creativity, and collaboration." />
+  <meta name="description" content="Learn about GlamArena Tech. Our philosophy, mission, and the core values guiding our tech education programs." />
   <title>GlamArena Tech | About Us</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -35,95 +32,76 @@
   </nav>
 
   <!-- ===== PAGE HEADER ===== -->
-  <section class="hero" style="min-height: 50vh; padding-top: 140px; padding-bottom: 60px;">
+  <section class="hero" style="min-height: 45vh; padding-top: 130px; padding-bottom: 40px;">
     <div class="hero-bg-grid"></div>
-    <div class="hero-container">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Our Story &amp; Philosophy
+    <div class="container hero-container" style="grid-template-columns: 1fr; text-align: center;">
+      <div class="hero-content" style="align-items: center; max-width: 800px; margin: 0 auto;">
+        <h1 class="hero-title">
+          Our Story &amp; <span class="gradient-text">Philosophy</span>
+        </h1>
+        <p class="hero-subtitle" style="margin-bottom: 0;">
+          We believe technology education should be practical, inclusive, and enjoyable. We support learners of all ages as they build confidence and grow through hands-on learning.
+        </p>
       </div>
-      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;">
-        About <span class="gradient-text">GlamArena Tech</span>
-      </h1>
-      <p class="hero-subtitle" style="margin-bottom: 0;">
-        We believe that technology should be accessible to everyone. That&rsquo;s why our programmes are built 
-        around hands-on learning, creativity, collaboration, and problem-solving.
-      </p>
     </div>
   </section>
 
   <!-- ===== DETAILED PHILOSOPHY ===== -->
-  <section class="section" style="background: rgba(3, 14, 32, 0.4);">
-    <div class="container">
-      <div class="about-grid" style="align-items: center;">
-        <div class="about-content">
-          <div class="section-tag">Our Approach</div>
-          <h2 class="section-title">Hands-On &amp; <span class="gradient-text">Enjoyable Learning</span></h2>
-          <p class="about-text">
-            From Block-based programming (Scratch, Blockly, Tynker, etc.) to Web-development, Full-Stack development, 
-            Mobile app development, Artificial Intelligence, cybersecurity, data analytics, robotics, UI/UX design, 
-            and other digital skills, every course is designed to help learners gain real experience while enjoying the learning process.
-          </p>
-          <p class="about-text">
-            We meet our students wherever they are in their tech journey. Whether they are kids typing their first lines of code, 
-            teens preparing for exams, or professionals upgrading their career skills, we offer a structured pathway to achieve their goals.
-          </p>
-        </div>
-        <div class="about-visual">
-          <div class="about-img-wrapper" style="height: 380px;">
-            <div class="about-glow"></div>
-            <div class="about-img-box" style="border-radius: var(--radius-lg);">
-              <img src="assets/children-html-3.jpeg" alt="Young student writing HTML code" class="about-real-img" />
-              <div class="about-img-badge">
-                <span>&#128187;</span>
-                <span>Learn by Doing</span>
-              </div>
-            </div>
-          </div>
+  <section class="section" style="background-color: rgba(9, 9, 11, 0.4);">
+    <div class="container why-us-grid">
+      <div class="why-us-content">
+        <h2 class="section-title">Hands-On &amp; <span class="gradient-text">Engaging Tracks</span></h2>
+        <p class="why-us-text">
+          From Scratch visual interfaces for young coders to professional engineering bootcamps, every program is structured around building actual projects. 
+        </p>
+        <p class="why-us-text" style="margin-bottom: 0;">
+          We meet you wherever you are on your learning journey. Whether you are typing your first lines of code or preparing to work with international product teams, we offer structured mentorship and resources to help you reach your goals.
+        </p>
+      </div>
+      <div class="why-us-visual">
+        <div class="why-image-box">
+          <img src="assets/lab.jpg" alt="Students coding in GlamArena Tech computer lab" class="why-real-img" />
         </div>
       </div>
     </div>
   </section>
 
   <!-- ===== CORE VALUES ===== -->
-  <section class="why-us section section-white">
+  <section class="section section-white">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Values</div>
         <h2 class="section-title">Our Core <span class="gradient-text">Principles</span></h2>
         <p class="section-subtitle">The four pillars that guide how we train, teach, and mentor our learners.</p>
       </div>
       <div class="why-us-grid" style="align-items: center; gap: 40px;">
         <div class="metric-grid">
-          <div class="metric-card">
-            <span style="font-size: 2.2rem; display: block; margin-bottom: 12px;">🎨</span>
-            <h4 style="color: var(--white); margin-bottom: 8px;">Creativity</h4>
-            <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">Encouraging learners to build animations, games, and applications based on their own unique ideas.</p>
+          <div class="metric-card" style="background: var(--bg-card-light); border: 1px solid var(--border-light); padding: 24px; border-radius: var(--radius-md); text-align: center;">
+            <span style="font-size: 2rem; display: block; margin-bottom: 12px;">🎨</span>
+            <h4 style="color: var(--text-primary-light); margin-bottom: 8px; font-family: var(--font-main); font-weight: 700;">Creativity</h4>
+            <p style="color: var(--text-secondary-light); font-size: 0.85rem; line-height: 1.5;">Encouraging learners to build custom animations, games, and responsive sites from their own ideas.</p>
           </div>
-          <div class="metric-card metric-accent">
-            <span style="font-size: 2.2rem; display: block; margin-bottom: 12px;">🤝</span>
-            <h4 style="color: var(--white); margin-bottom: 8px;">Collaboration</h4>
-            <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">Working in teams, participating in peer code reviews, and building communication skills essential for global teams.</p>
+          <div class="metric-card" style="background: var(--bg-card-light); border: 1px solid var(--border-light); padding: 24px; border-radius: var(--radius-md); text-align: center;">
+            <span style="font-size: 2rem; display: block; margin-bottom: 12px;">🤝</span>
+            <h4 style="color: var(--text-primary-light); margin-bottom: 8px; font-family: var(--font-main); font-weight: 700;">Collaboration</h4>
+            <p style="color: var(--text-secondary-light); font-size: 0.85rem; line-height: 1.5;">Working in pairs, code reviews, and project collaboration to build communication habits for modern teams.</p>
           </div>
-          <div class="metric-card metric-accent">
-            <span style="font-size: 2.2rem; display: block; margin-bottom: 12px;">🛠️</span>
-            <h4 style="color: var(--white); margin-bottom: 8px;">Hands-On Practice</h4>
-            <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">No boring lectures. Every session involves writing code, compiling programs, or designing layouts.</p>
+          <div class="metric-card" style="background: var(--bg-card-light); border: 1px solid var(--border-light); padding: 24px; border-radius: var(--radius-md); text-align: center;">
+            <span style="font-size: 2rem; display: block; margin-bottom: 12px;">🛠️</span>
+            <h4 style="color: var(--text-primary-light); margin-bottom: 8px; font-family: var(--font-main); font-weight: 700;">Practical Coding</h4>
+            <p style="color: var(--text-secondary-light); font-size: 0.85rem; line-height: 1.5;">Every class involves writing real code, compiling scripts, and designing functional interfaces.</p>
           </div>
-          <div class="metric-card">
-            <span style="font-size: 2.2rem; display: block; margin-bottom: 12px;">🧠</span>
-            <h4 style="color: var(--white); margin-bottom: 8px;">Problem Solving</h4>
-            <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">Developing computational thinking to break down complex projects into simple, solvable steps.</p>
+          <div class="metric-card" style="background: var(--bg-card-light); border: 1px solid var(--border-light); padding: 24px; border-radius: var(--radius-md); text-align: center;">
+            <span style="font-size: 2rem; display: block; margin-bottom: 12px;">🧠</span>
+            <h4 style="color: var(--text-primary-light); margin-bottom: 8px; font-family: var(--font-main); font-weight: 700;">Problem Solving</h4>
+            <p style="color: var(--text-secondary-light); font-size: 0.85rem; line-height: 1.5;">Developing systematic thinking to break down complex projects into simple, logical stages.</p>
           </div>
         </div>
         <div class="why-us-content">
-          <div class="section-tag">Vision</div>
-          <h2 class="section-title" style="font-size: clamp(1.8rem, 3.5vw, 2.5rem);">Preparing You for the <span class="gradient-text">Global Stage</span></h2>
+          <h2 class="section-title">Preparing for the <span class="gradient-text">Global Stage</span></h2>
           <p class="why-us-text">
-            GlamArena Tech is committed to preparing learners to compete, collaborate, and thrive anywhere in the world. 
-            We build global skills, connect you with international opportunities, and support you every step of the way.
+            GlamArena Tech is committed to preparing you to compete, collaborate, and thrive. We connect your classroom training with real-world placements, local internships, and international career insights.
           </p>
-          <a href="code-camp.html" class="btn btn-primary">Browse Programmes</a>
+          <a href="code-camp.html" class="btn btn-primary" style="align-self: flex-start;">Browse Programmes</a>
         </div>
       </div>
     </div>
@@ -131,7 +109,6 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="footer-glow"></div>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -139,7 +116,7 @@
             <img src="assets/logo-combined.png" alt="GlamArena Tech Logo" class="logo-img" />
           </a>
           <p class="footer-tagline">Equipping today's learners with the skills for tomorrow's world.</p>
-          <p class="footer-copy">A place where people of all ages can discover, learn, and grow through technology.</p>
+          <p class="footer-copy">A support system and workspace for technology exploration, collaboration, and learning.</p>
         </div>
         <div class="footer-col">
           <h4>GlamArena Tech</h4>

@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GlamArena Tech is a place where people of all ages can discover, learn, and grow through technology. Equipping today's learners with the skills for tomorrow's world." />
-  <title>GlamArena Tech | Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <meta name="description" content="GlamArena Tech is a premium tech education platform. Equipping today's learners with practical digital skills for tomorrow's world." />
+  <title>GlamArena Tech | Premium Tech Education Platform</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -37,54 +34,28 @@
   <!-- ===== HERO ===== -->
   <section id="home" class="hero">
     <div class="hero-bg-grid"></div>
-    <div class="hero-orb hero-orb-1"></div>
-    <div class="hero-orb hero-orb-2"></div>
-    <div class="hero-orb hero-orb-3"></div>
-    <div class="hero-container">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Welcome to GlamArena Tech
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Learn. Build. Grow.<br />
+          <span class="gradient-text">Go Global.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Acquire practical, industry-standard tech skills. From kids coding classes to intensive professional bootcamps, our hands-on programs prepare you to excel in the global digital economy.
+        </p>
+        <div class="hero-actions">
+          <a href="code-camp.html" class="btn btn-primary btn-lg">
+            Explore Code Camp
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="about.html" class="btn btn-outline btn-lg">
+            Our Philosophy
+          </a>
+        </div>
       </div>
-      <h1 class="hero-title">
-        Learn. Create. Grow.<br />
-        <span class="gradient-text">Go Global.</span>
-      </h1>
-      <p class="hero-subtitle">
-        Welcome to GlamArena Tech, a place where people of all ages can discover, learn, and grow through technology. 
-        Whether you are a child exploring coding for the first time, a student looking to develop digital skills, 
-        or a professional ready to learn something new, you'll find a supportive environment designed to help you succeed.
-      </p>
-      <div class="hero-actions">
-        <a href="code-camp.html" class="btn btn-primary btn-lg">
-          Explore Code Camp
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="about.html" class="btn btn-ghost btn-lg">
-          Our Vision
-        </a>
-      </div>
-      <p class="hero-tagline" style="margin-top: 2rem; margin-bottom: 2rem; font-size: 1.1rem; color: var(--accent-light); font-weight: 500; font-family: var(--font-main);">
-        GlamArena Tech &ndash; Equipping today&apos;s learners with the skills for tomorrow&apos;s world.
-      </p>
-      <div class="hero-stats">
-        <div class="stat-card">
-          <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
-          <span class="stat-label">Learners Trained</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
-          <span class="stat-label">Tech Courses</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
-          <span class="stat-label">Practical Projects</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
-          <span class="stat-label">All Ages Welcome</span>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/lab.jpg" alt="Students coding in GlamArena Tech computer lab" class="hero-img" />
         </div>
       </div>
     </div>
@@ -94,7 +65,37 @@
     </div>
   </section>
 
-  <!-- ===== MARQUEE ===== -->
+  <!-- ===== STATISTICS BANNER ===== -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-number-wrapper">
+          <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+        </div>
+        <span class="stat-label">Learners Trained</span>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number-wrapper">
+          <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+        </div>
+        <span class="stat-label">Tech Courses</span>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number-wrapper">
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+        </div>
+        <span class="stat-label">Practical Projects</span>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number-wrapper">
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+        </div>
+        <span class="stat-label">Ages 7+ Welcome</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE STRIP ===== -->
   <div class="marquee-strip">
     <div class="marquee-track">
       <span>Kids Coding</span><span class="marquee-dot">&#10022;</span>
@@ -105,6 +106,7 @@
       <span>Corporate Training</span><span class="marquee-dot">&#10022;</span>
       <span>Go Global</span><span class="marquee-dot">&#10022;</span>
       <span>Learn &amp; Grow</span><span class="marquee-dot">&#10022;</span>
+      <!-- Repeated for infinite scroll seamless track -->
       <span>Kids Coding</span><span class="marquee-dot">&#10022;</span>
       <span>Digital Skills</span><span class="marquee-dot">&#10022;</span>
       <span>Web Development</span><span class="marquee-dot">&#10022;</span>
@@ -120,12 +122,11 @@
   <section class="gallery section section-white">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">In Action</div>
-        <h2 class="section-title">Our Learners <span class="gradient-text">Building</span> the Future</h2>
-        <p class="section-subtitle">Real moments from our training sessions &mdash; where the next generation of tech leaders learn by doing</p>
+        <h2 class="section-title">Empowering Learners to <span class="gradient-text">Build the Future</span></h2>
+        <p class="section-subtitle">Real moments from our practical sessions, coding camps, and student showcase projects.</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item" data-label="HTML Class Session">
+        <div class="gallery-item gallery-item-tall" data-label="HTML Class Session">
           <img src="assets/children-html-1.jpeg" alt="Children learning HTML coding in class" loading="lazy" />
           <div class="gallery-overlay">
             <span class="gallery-tag">HTML &amp; CSS</span>
@@ -140,13 +141,13 @@
           </div>
         </div>
         <div class="gallery-item" data-label="Practical Programming">
-          <img src="assets/children-html-3.jpeg" alt="Kids typing real HTML code on laptop" loading="lazy" />
+          <img src="assets/children-html-3.jpeg" alt="Kids typing HTML code on a laptop" loading="lazy" />
           <div class="gallery-overlay">
             <span class="gallery-tag">Hands-on Practice</span>
             <p>Every student writes real code from day one under active mentorship.</p>
           </div>
         </div>
-        <div class="gallery-item" data-label="HTML Project Outcome">
+        <div class="gallery-item gallery-item-wide" data-label="HTML Project Outcome">
           <img src="assets/html-project-result.jpeg" alt="Screenshot of student HTML project result" loading="lazy" />
           <div class="gallery-overlay">
             <span class="gallery-tag">Student Showcase</span>
@@ -167,32 +168,62 @@
             <p>Learners coding scalable web pages and UI designs in high-focus environments.</p>
           </div>
         </div>
+        <div class="gallery-item" data-label="AI in the Classroom">
+          <img src="assets/147070744076659032.jpg" alt="School students learning AI concepts on laptops" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">AI &amp; Machine Learning</span>
+            <p>Introducing the next generation to artificial intelligence through hands-on discovery.</p>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-tall" data-label="Collaborative Learning">
+          <img src="assets/Form One English Language For Secondary Schools Students Book With Grammar Exercises And Answers1.jpg" alt="School students collaborating with laptops and tablets" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Tech for Schools</span>
+            <p>Secondary school students engage with digital tools and collaborative tech-based projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-cta">
+        <p>Want to see what our curriculum covers?</p>
+        <a href="code-camp.html" class="btn btn-primary">Browse Coding Programs</a>
       </div>
     </div>
   </section>
 
-  <!-- ===== HOME HIGHLIGHTS ===== -->
-  <section class="section" style="background: rgba(3, 14, 32, 0.4);">
-    <div class="container">
-      <div class="about-grid" style="align-items: center;">
-        <div class="about-content">
-          <div class="section-tag">Empowerment</div>
-          <h2 class="section-title">Why Choose <span class="gradient-text">GlamArena Tech?</span></h2>
-          <p class="about-text">At GlamArena Tech, our vision extends beyond our local community. We are committed to preparing learners to compete, collaborate, and thrive anywhere in the world. As we continue to grow, we look forward to welcoming learners from different backgrounds, connecting with global partners, and creating opportunities that reach far beyond our borders.</p>
-          <div class="about-features" style="margin-top: 2rem;">
-            <div class="about-feature"><div class="feature-check">&#10003;</div><span>Hands-on practice &amp; project portfolio</span></div>
-            <div class="about-feature"><div class="feature-check">&#10003;</div><span>Curriculum matching global industry standards</span></div>
-            <div class="about-feature"><div class="feature-check">&#10003;</div><span>Open to learners of all age groups</span></div>
-          </div>
-          <a href="about.html" class="btn btn-primary" style="margin-top: 1.5rem;">Learn More About Us</a>
-        </div>
-        <div class="about-visual">
-          <div class="about-img-wrapper" style="height: 380px;">
-            <div class="about-glow"></div>
-            <div class="about-img-box" style="border-radius: var(--radius-lg);">
-              <img src="assets/photo-3.jpg" alt="Learners collaborating in coding class" class="about-real-img" />
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section" style="background-color: rgba(9, 9, 11, 0.4);">
+    <div class="container why-us-grid">
+      <div class="why-us-content">
+        <h2 class="section-title">Why GlamArena <span class="gradient-text">Tech?</span></h2>
+        <p class="why-us-text">We are committed to preparing learners to compete, collaborate, and thrive globally. Our curriculum matches modern industry standards, designed to support you at every phase of your tech journey.</p>
+        <div class="why-us-list">
+          <div class="why-item">
+            <div class="why-icon">&#10003;</div>
+            <div>
+              <h4>Hands-On Projects Portfolio</h4>
+              <p>Build actual, deployable applications that showcase your skills to global employers from day one.</p>
             </div>
           </div>
+          <div class="why-item">
+            <div class="why-icon">&#10003;</div>
+            <div>
+              <h4>Industry-Aligned Curriculum</h4>
+              <p>Acquire relevant, modern capabilities using tools and methodologies standard in international tech teams.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">&#10003;</div>
+            <div>
+              <h4>Inclusive Tech Education</h4>
+              <p>Specially structured pathways for junior coders, teens, university students, and career-transitioning adults.</p>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="btn btn-primary" style="margin-top: 30px; align-self: flex-start;">Learn More About Us</a>
+      </div>
+      <div class="why-us-visual">
+        <div class="why-image-box">
+          <img src="assets/Learning digital skills.jpg" alt="Mentor teaching students digital skills in a classroom" class="why-real-img" />
         </div>
       </div>
     </div>
@@ -202,34 +233,55 @@
   <section class="testimonials section section-white">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Testimonials</div>
-        <h2 class="section-title">What Our <span class="gradient-text">Learners Say</span></h2>
-        <p class="section-subtitle">Real feedback from children, students, and professionals who trained with us</p>
+        <h2 class="section-title">Student Success <span class="gradient-text">Stories</span></h2>
+        <p class="section-subtitle">Hear from the parents, graduates, and professionals who have transformed their lives through technology.</p>
       </div>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"My daughter joined the Junior Coders program at age 9 and has not stopped creating since. She has built her own website and is now teaching her friends how to code. GlamArena Tech changed how she sees technology."</p>
-          <div class="testimonial-author">
-            <div class="author-avatar" style="background: linear-gradient(135deg, #1a4fd6, #f0a500);">NA</div>
-            <div><strong>Ngozi Adeyemi</strong><span>Parent, Lagos</span></div>
+      <div class="testimonials-carousel-wrapper">
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"My daughter joined the Junior Coders program at age 9 and has not stopped creating since. She built her own web layout and now shares coding tips with friends. GlamArena Tech changed how she interacts with technology."</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/photo-2.jpg" alt="Ngozi Adeyemi" class="author-avatar-img" />
+              <div class="author-info">
+                <strong>Ngozi Adeyemi</strong>
+                <span>Parent, Lagos</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"I joined the bootcamp with zero coding knowledge. Six months later, I landed a role at a digital agency. The training is intense but highly practical — every week you build something real."</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/photo-4.jpg" alt="Tunde Makinde" class="author-avatar-img" />
+              <div class="author-info">
+                <strong>Tunde Makinde</strong>
+                <span>Software Developer, Abuja</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"We brought GlamArena Tech in to train our team on digital tools. The impact was immediate. Productivity increased, administrative errors dropped, and the staff now works with confidence."</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/photo-6.jpg" alt="Funmi Okafor" class="author-avatar-img" />
+              <div class="author-info">
+                <strong>Funmi Okafor</strong>
+                <span>Operations Manager, Lagos</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="testimonial-card testimonial-featured">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"I came into the Professional Bootcamp with zero coding knowledge. Six months later, I landed a junior web developer role at a digital agency. The training is intense but so practical &mdash; every week you are building something real."</p>
-          <div class="testimonial-author">
-            <div class="author-avatar" style="background: linear-gradient(135deg, #f0a500, #1e40af);">TM</div>
-            <div><strong>Tunde Makinde</strong><span>Junior Web Developer, Abuja</span></div>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"We brought GlamArena Tech in to train our entire administrative team. The impact was immediate &mdash; staff productivity improved, we reduced errors, and the team now uses digital tools confidently every day."</p>
-          <div class="testimonial-author">
-            <div class="author-avatar" style="background: linear-gradient(135deg, #1239a8, #fbbf24);">FO</div>
-            <div><strong>Funmi Okafor</strong><span>Operations Manager, Lagos</span></div>
-          </div>
+        <div class="carousel-dots">
+          <button class="carousel-dot active" aria-label="Slide 1"></button>
+          <button class="carousel-dot" aria-label="Slide 2"></button>
+          <button class="carousel-dot" aria-label="Slide 3"></button>
         </div>
       </div>
     </div>
@@ -237,16 +289,13 @@
 
   <!-- ===== CTA ===== -->
   <section class="cta-section section">
-    <div class="cta-orb-1"></div>
-    <div class="cta-orb-2"></div>
     <div class="container">
       <div class="cta-inner">
-        <div class="section-tag" style="margin: 0 auto 1.5rem;">Start Your Journey</div>
-        <h2 class="cta-title">Ready to Learn &amp; Grow?<br /><span class="gradient-text">Your Journey Starts Here</span></h2>
-        <p class="cta-subtitle">Join hundreds of learners exploring code, web, AI, and digital skills at GlamArena Tech.</p>
+        <h2 class="cta-title">Ready to Launch Your <span class="gradient-text">Tech Journey?</span></h2>
+        <p class="cta-subtitle">Join hundreds of learners acquiring in-demand digital skills and building global careers at GlamArena Tech.</p>
         <div class="cta-actions">
           <a href="contact.html" class="btn btn-primary btn-lg">Enroll Today</a>
-          <a href="code-camp.html" class="btn btn-ghost btn-lg">View Code Camp</a>
+          <a href="code-camp.html" class="btn btn-outline btn-lg">Browse Programs</a>
         </div>
       </div>
     </div>
@@ -254,7 +303,6 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="footer-glow"></div>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -262,7 +310,7 @@
             <img src="assets/logo-combined.png" alt="GlamArena Tech Logo" class="logo-img" />
           </a>
           <p class="footer-tagline">Equipping today's learners with the skills for tomorrow's world.</p>
-          <p class="footer-copy">A place where people of all ages can discover, learn, and grow through technology.</p>
+          <p class="footer-copy">A support system and workspace for technology exploration, collaboration, and learning.</p>
         </div>
         <div class="footer-col">
           <h4>GlamArena Tech</h4>

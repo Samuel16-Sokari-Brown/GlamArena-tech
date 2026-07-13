@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GlamArena Tech Code Camp. Intensive, hands-on programming tracks for kids, teens, and professionals." />
-  <title>GlamArena Tech | Code Camp</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <meta name="description" content="GlamArena Tech Code Camp programs. Structured tech learning tracks for kids, teens, and career professionals." />
+  <title>GlamArena Tech | Code Camp Tracks</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -35,20 +32,17 @@
   </nav>
 
   <!-- ===== PAGE HEADER ===== -->
-  <section class="hero" style="min-height: 50vh; padding-top: 140px; padding-bottom: 60px;">
+  <section class="hero" style="min-height: 45vh; padding-top: 130px; padding-bottom: 40px;">
     <div class="hero-bg-grid"></div>
-    <div class="hero-container">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Hands-On Code Camp
+    <div class="container hero-container" style="grid-template-columns: 1fr; text-align: center;">
+      <div class="hero-content" style="align-items: center; max-width: 800px; margin: 0 auto;">
+        <h1 class="hero-title">
+          Code Camp <span class="gradient-text">Programmes</span>
+        </h1>
+        <p class="hero-subtitle" style="margin-bottom: 0;">
+          Hands-on tracks designed to equip learners with practical digital skills. Choose a course that aligns with your experience and learning goals.
+        </p>
       </div>
-      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;">
-        Discover <span class="gradient-text">Coding Programmes</span>
-      </h1>
-      <p class="hero-subtitle" style="margin-bottom: 0;">
-        Equipping today&rsquo;s learners with the practical skills for tomorrow&rsquo;s world. 
-        Select a track tailored to your age and goals.
-      </p>
     </div>
   </section>
 
@@ -58,14 +52,14 @@
       <div class="programs-grid">
         <div class="program-card program-featured">
           <div class="program-badge">Most Popular</div>
-          <div class="program-icon">&#128187;</div>
+          <span class="program-icon">💻</span>
           <h3>Junior Coders (Ages 7&ndash;16)</h3>
-          <p>Children explore logic and coding in an engaging way. From drag-and-drop games to writing their first real lines of HTML, CSS, and Python.</p>
+          <p>An engaging introduction to logic and programming. Kids build animations and games while writing real lines of HTML, CSS, and basic Python.</p>
           <ul class="program-topics">
-            <li>Scratch, Blockly &amp; Tynker</li>
-            <li>HTML &amp; CSS Web Coding</li>
-            <li>Python Coding Basics</li>
-            <li>Creative Problem-Solving</li>
+            <li>Scratch &amp; Visual Interfaces</li>
+            <li>HTML5 &amp; CSS3 Web Basics</li>
+            <li>Introduction to Python Scripting</li>
+            <li>Creative Problem-Solving Exercises</li>
           </ul>
           <div class="program-meta">
             <span class="program-duration">3 Months</span>
@@ -75,14 +69,14 @@
         </div>
 
         <div class="program-card">
-          <div class="program-icon">&#127758;</div>
+          <span class="program-icon">🌐</span>
           <h3>Student Digital Skills</h3>
-          <p>Designed for secondary and university students. Build practical skills, learn standard web-development tools, and prepare for global tech challenges.</p>
+          <p>Designed for secondary and tertiary students. Learn standard web development languages, user experience basics, and tools to prepare for international tech projects.</p>
           <ul class="program-topics">
-            <li>Modern Web-Development Basics</li>
+            <li>Responsive Web Layouts</li>
             <li>UI/UX Design Concepts</li>
             <li>Data Literacy &amp; AI Tools</li>
-            <li>Collaborative Git Workflows</li>
+            <li>Version Control with Git &amp; GitHub</li>
           </ul>
           <div class="program-meta">
             <span class="program-duration">4 Months</span>
@@ -92,18 +86,18 @@
         </div>
 
         <div class="program-card">
-          <div class="program-icon">&#129302;</div>
-          <h3>Professional Tech Bootcamp</h3>
-          <p>For adults and professionals looking to build high-demand careers. Comprehensive, immersive training in advanced software engineering, AI, robotics, and cyber defense.</p>
+          <span class="program-icon">🤖</span>
+          <h3>Professional Bootcamp</h3>
+          <p>An intensive track for adults transitioning careers. Build comprehensive competencies in full-stack engineering, databases, APIs, and modern libraries.</p>
           <ul class="program-topics">
-            <li>Full-Stack &amp; Mobile App Dev</li>
-            <li>Artificial Intelligence Systems</li>
-            <li>Cybersecurity &amp; Network Defense</li>
-            <li>Robotics &amp; Physical Hardware</li>
+            <li>Frontend &amp; Backend Engineering</li>
+            <li>API Integrations &amp; DB Management</li>
+            <li>AI Application Architecture</li>
+            <li>Robotics &amp; Secure Coding Practices</li>
           </ul>
           <div class="program-meta">
             <span class="program-duration">6 Months</span>
-            <span class="program-level">Adults &amp; Professionals</span>
+            <span class="program-level">Career Bootcamps</span>
           </div>
           <a href="contact.html" class="btn btn-outline btn-full">Enroll Now</a>
         </div>
@@ -115,25 +109,24 @@
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Methodology</div>
         <h2 class="section-title">The Code Camp <span class="gradient-text">Experience</span></h2>
-        <p class="section-subtitle">A typical cohort structure at GlamArena Tech.</p>
+        <p class="section-subtitle">A balanced, project-driven methodology structured to ensure skill retention.</p>
       </div>
       <div class="about-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
-        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+        <div class="metric-card" style="text-align: left; padding: 32px 24px;">
           <span style="font-size: 2rem; display: block; margin-bottom: 16px;">📅</span>
-          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">1. Weekly Classes</h3>
-          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Hands-on training, interactive live challenges, and coding drills guided by industry professionals.</p>
+          <h3 style="color: var(--white); font-size: 1.1rem; margin-bottom: 12px; font-family: var(--font-main); font-weight: 700;">1. Guided Sessions</h3>
+          <p style="color: var(--text-secondary-dark); font-size: 0.85rem; line-height: 1.6;">Interactive, live challenges led by experienced mentors to explain concepts and review code structures.</p>
         </div>
-        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+        <div class="metric-card" style="text-align: left; padding: 32px 24px;">
           <span style="font-size: 2rem; display: block; margin-bottom: 16px;">💻</span>
-          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">2. Projects Portfolio</h3>
-          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Build actual, deployable systems. You leave the camp with a personal portfolio of working products.</p>
+          <h3 style="color: var(--white); font-size: 1.1rem; margin-bottom: 12px; font-family: var(--font-main); font-weight: 700;">2. Project Portfolios</h3>
+          <p style="color: var(--text-secondary-dark); font-size: 0.85rem; line-height: 1.6;">Build complete, functional websites and services to demonstrate your capability to future employers.</p>
         </div>
-        <div class="metric-card" style="text-align: left; padding: 36px 28px;">
+        <div class="metric-card" style="text-align: left; padding: 32px 24px;">
           <span style="font-size: 2rem; display: block; margin-bottom: 16px;">🏆</span>
-          <h3 style="color: var(--white); font-size: 1.2rem; margin-bottom: 12px;">3. Certification</h3>
-          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">Graduate with a verified certificate of completion and recommendations for internships.</p>
+          <h3 style="color: var(--white); font-size: 1.1rem; margin-bottom: 12px; font-family: var(--font-main); font-weight: 700;">3. Career Pathways</h3>
+          <p style="color: var(--text-secondary-dark); font-size: 0.85rem; line-height: 1.6;">Graduate with a verified certification of completion and recommendations for active internships.</p>
         </div>
       </div>
     </div>
@@ -143,31 +136,39 @@
   <section class="section section-white">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Showcase</div>
         <h2 class="section-title">Created by <span class="gradient-text">Our Students</span></h2>
-        <p class="section-subtitle">A look at the real-world websites designed and coded by students during our Junior HTML &amp; CSS Web Track.</p>
+        <p class="section-subtitle">A look at the real-world layouts designed and coded by students during our Junior HTML &amp; CSS Web Track.</p>
       </div>
       <div class="about-grid" style="align-items: center; gap: 40px;">
         <div class="about-visual">
-          <div class="about-img-wrapper" style="height: 350px;">
-            <div class="about-glow"></div>
-            <div class="about-img-box" style="border-radius: var(--radius-lg);">
-              <img src="assets/children-html-2.jpeg" alt="Students coding layout in class" class="about-real-img" />
+          <div class="about-img-wrapper" style="height: 320px;">
+            <div class="about-img-box" style="border-radius: var(--radius-md);">
+              <img src="assets/children-html-2.jpeg" alt="Students coding layout in class" class="about-real-img" loading="lazy" />
               <div class="about-img-badge">
                 <span>💻</span>
-                <span>Students Coding Layout</span>
+                <span>Active Coding Sessions</span>
               </div>
             </div>
           </div>
         </div>
         <div class="about-visual">
-          <div class="about-img-wrapper" style="height: 350px;">
-            <div class="about-glow"></div>
-            <div class="about-img-box" style="border-radius: var(--radius-lg);">
-              <img src="assets/html-project-result.jpeg" alt="HTML output of student website project" class="about-real-img" />
+          <div class="about-img-wrapper" style="height: 320px;">
+            <div class="about-img-box" style="border-radius: var(--radius-md);">
+              <img src="assets/html-project-result.jpeg" alt="HTML output of student website project" class="about-real-img" loading="lazy" />
               <div class="about-img-badge">
                 <span>🚀</span>
-                <span>HTML Project Outcome</span>
+                <span>Project Output Showcase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-img-wrapper" style="height: 320px;">
+            <div class="about-img-box" style="border-radius: var(--radius-md);">
+              <img src="assets/147070744076659032.jpg" alt="Students learning AI concepts in a modern classroom" class="about-real-img" loading="lazy" />
+              <div class="about-img-badge">
+                <span>🤖</span>
+                <span>AI &amp; Advanced Track</span>
               </div>
             </div>
           </div>
@@ -178,7 +179,6 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="footer-glow"></div>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -186,7 +186,7 @@
             <img src="assets/logo-combined.png" alt="GlamArena Tech Logo" class="logo-img" />
           </a>
           <p class="footer-tagline">Equipping today's learners with the skills for tomorrow's world.</p>
-          <p class="footer-copy">A place where people of all ages can discover, learn, and grow through technology.</p>
+          <p class="footer-copy">A support system and workspace for technology exploration, collaboration, and learning.</p>
         </div>
         <div class="footer-col">
           <h4>GlamArena Tech</h4>
